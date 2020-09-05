@@ -26,4 +26,14 @@ Here are the commands I came across while learning.
     E.g `./sysinfo.sh`
     
  8. `rm fileName` Delete a file.
-    E.g `rm helloMoto.sh` 
+    E.g `rm helloMoto.sh`
+    
+9. `arrayName=( Val1 Val2 Val3 )` Here Names is the arrayName which contains the 3 values in it.
+    E.g `NAMES=( John Eric Jessica )`
+    
+10. `${#arrayName[@]}` provides the total array size.
+    E.g `${#NAMES[@]}`
+    
+11. `${arrayName[indexNumber]}` Access the array value by Index Number.
+    E.g `${NAMES[2]}`
+    
